@@ -64,8 +64,7 @@ app.get("/", (req, res) => {
   sendLogToDiscord(logMessage);
   res.send({
     message: "Welcome To JKT48 WEB API",
-    author: "https://github.com/Synxx12",
-    repository: "https://github.com/Synxx12/JKT48-Web-Scrape.git",
+    author: "https://www.instagram.com/valzyycans",
   });
 });
 
